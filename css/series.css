@@ -1,0 +1,44 @@
+/*DOCUMENTO CSS*/
+
+
+body {
+    background-image: url(https://img.freepik.com/vector-premium/conjunto-fondo-patron-libros-icono-coleccion-libros-vector_255965-2238.jpg?w=740);
+    background-size: cover;
+    font-family: "Khand", sans-serif;
+    margin: 0;
+    color: white;}
+
+h1 {
+    font-size: 3em;
+    color: palevioletred;
+}
+
+h2 {
+    color: yellow;
+}
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.libros {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+    gap: 20px;
+}
+
+.libro {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 250px;
+}
+
+.libro img {
+    max-width: 100%;
+    border-radius: 5px;
+}

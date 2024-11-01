@@ -1,0 +1,82 @@
+/*DOCUMENTO CSS*/
+* { margin: 0;
+    padding: 0; }
+
+body { font-family: "Raleway", sans-serif;}
+
+section, header, footer, div, main {box-sizing: border-box;}
+
+h1 { background: rgb(177, 241, 0);}
+
+.cabecera { background: rgb(27, 30, 231);
+            padding: 20px 0px;
+            margin-bottom: 25px;}
+
+.tablas { width: 70%;
+          margin: 0px auto 30px auto;}
+
+main.tablas table { background-color: rgb(120, 230, 179);}
+
+.tablas table { margin: auto;
+                background: rgb(156, 250, 16);
+                width: 100%;
+                }
+
+.contenido { width: 70%;
+             margin: auto;}
+
+.contenido p { padding: 15px 0px;
+               line-height: 1.5;}
+
+.pie { height: 80px;
+background-color: blue;}
+
+.pie p { text-align: center;
+         color: white;
+         font-weight: 700;
+         line-height: 5em;}
+
+.tablas tr:first-child { background-color:yellow;}
+
+
+.tablas tr:nth-child(3) { background-color: magenta;}
+
+/*PARA PONER UN ENLACE CON COLOR*/
+
+.contenido a:link { color: rgb(11, 188, 194);
+                    text-decoration:none;}
+
+
+.contenido a:hover { color: rgb(115, 12, 211);
+                     background-color:rgb(231, 255, 53);}
+          
+                     
+.contenido a:active { color: rgb(19, 62, 63);
+                      background-color: rgb(41, 214, 253);
+                      font-size: 2em;}
+
+
+.contenido a:hover { color: rgb(202, 230, 46);
+                    background-color: rgb(220, 47, 154);
+                    font-size: 1em;}
+
+.contenido p:nth-child(even) {color: blue;}
+
+.contenido p:nth-child(odd) {color: magenta;}
+
+p.hijo1::first-letter { font-size: 4em;
+                        float: left;
+                        padding-bottom: 10px;
+                        padding-right: 15px;}
+
+.contenido p::first-line { text-decoration:line-through;}
+
+.tres::before { content:"";
+                display: block;
+                width: 50px;
+                height: 50px;
+                background-image: url(/img/corazon.avif);
+                background-size: 100%;
+                position: relative;
+                left: -60px;
+                top: 60px;}

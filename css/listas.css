@@ -4,7 +4,7 @@
 
 header, main, div, footer, nav, article { box-sizing: border-box;}
 
-    /*ESPECIFICIDAD DE SELECTORES*/
+/*ESPECIFICIDAD DE SELECTORES*/
 
 h1 {color: red;}
 
