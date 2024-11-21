@@ -1,0 +1,53 @@
+/*DOCUMETO CSS*/
+* { margin: 0;
+    padding: 0;}
+
+div, header, nav { box-sizing: border-box;}
+
+/*Encabezados*/
+
+
+/*Layout o Maquetaciión*/
+
+.cabecera { width: 100%;
+            min-height: 1px;
+            background-color: #4949de; }
+
+
+.bar {  width: 100%;
+        text-align: center;
+        font-size: 3em; 
+        color: whitesmoke; 
+        padding: 8px 0px; }
+
+
+
+
+.menu { width: 100%;
+        display: flex; 
+        min-height: 1px;
+        background-color: #ffffff;}
+
+.items { width: 25%;
+         text-align: center;
+        color: rgb(108, 65, 220);  
+        font-family: "Montserrat", sans-serif;
+        text-decoration: none;}
+
+
+/*Media Queries o Pantallas de movil y 1280 */
+
+@media only screen and (min-width: 1280) { }
+
+    nav.menu { width: 70%;
+            margin: auto;
+            position: relative;
+            top: 20px;}
+
+
+    .items {border: 1px solid rgba(137, 43, 226, 0.541);}
+    .items:first-child {border-top-left-radius: 20px; 
+                        border-bottom-left-radius: 20px;}
+
+    .items:last-child { border-top-right-radius: 20px;
+                        border-bottom-right-radius: 20px;}
